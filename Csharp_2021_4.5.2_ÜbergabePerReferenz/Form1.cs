@@ -124,7 +124,10 @@ namespace Csharp_2021_4._5._2_ÜbergabePerReferenz
 			double a = 4.5, c = 10.3;
 			int b = 7, d = 9;
 
-			lblAnzeige.Text = "Ergebnis: " + Addiere(a, b, c, d);
+			// lblAnzeige.Text = "Ergebnis: " + Addiere(a, b, c, d);
+			// lblAnzeige.Text = "Ergebnis: " + Addiere(a, b, c);
+			lblAnzeige.Text = "Ergebnis: " + Addiere(a, b);
+
 		}
 
 		private double Addiere(double x, int y, double z = 0, int q = 0)
