@@ -32,6 +32,10 @@ namespace Csharp_2021_4._5._2_ÜbergabePerReferenz
 			this.btnKopie = new System.Windows.Forms.Button();
 			this.btnReferenz = new System.Windows.Forms.Button();
 			this.lblAnzeige = new System.Windows.Forms.Label();
+			this.btnFeldVerdoppeln = new System.Windows.Forms.Button();
+			this.btnOut = new System.Windows.Forms.Button();
+			this.btnMaxAnzeigen = new System.Windows.Forms.Button();
+			this.btnOptionaleArgumente = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnKopie
@@ -63,11 +67,55 @@ namespace Csharp_2021_4._5._2_ÜbergabePerReferenz
 			this.lblAnzeige.TabIndex = 2;
 			this.lblAnzeige.Text = "label1";
 			// 
+			// btnFeldVerdoppeln
+			// 
+			this.btnFeldVerdoppeln.Location = new System.Drawing.Point(183, 67);
+			this.btnFeldVerdoppeln.Name = "btnFeldVerdoppeln";
+			this.btnFeldVerdoppeln.Size = new System.Drawing.Size(75, 36);
+			this.btnFeldVerdoppeln.TabIndex = 3;
+			this.btnFeldVerdoppeln.Text = "Feld verdoppeln";
+			this.btnFeldVerdoppeln.UseVisualStyleBackColor = true;
+			this.btnFeldVerdoppeln.Click += new System.EventHandler(this.btnFeldVerdoppeln_Click);
+			// 
+			// btnOut
+			// 
+			this.btnOut.Location = new System.Drawing.Point(183, 110);
+			this.btnOut.Name = "btnOut";
+			this.btnOut.Size = new System.Drawing.Size(75, 23);
+			this.btnOut.TabIndex = 4;
+			this.btnOut.Text = "Out";
+			this.btnOut.UseVisualStyleBackColor = true;
+			this.btnOut.Click += new System.EventHandler(this.btnOut_Click);
+			// 
+			// btnMaxAnzeigen
+			// 
+			this.btnMaxAnzeigen.Location = new System.Drawing.Point(183, 139);
+			this.btnMaxAnzeigen.Name = "btnMaxAnzeigen";
+			this.btnMaxAnzeigen.Size = new System.Drawing.Size(75, 42);
+			this.btnMaxAnzeigen.TabIndex = 5;
+			this.btnMaxAnzeigen.Text = "Max-Wert anzeigen";
+			this.btnMaxAnzeigen.UseVisualStyleBackColor = true;
+			this.btnMaxAnzeigen.Click += new System.EventHandler(this.btnMaxAnzeigen_Click);
+			// 
+			// btnOptionaleArgumente
+			// 
+			this.btnOptionaleArgumente.Location = new System.Drawing.Point(183, 188);
+			this.btnOptionaleArgumente.Name = "btnOptionaleArgumente";
+			this.btnOptionaleArgumente.Size = new System.Drawing.Size(75, 44);
+			this.btnOptionaleArgumente.TabIndex = 6;
+			this.btnOptionaleArgumente.Text = "Optionale Argumente";
+			this.btnOptionaleArgumente.UseVisualStyleBackColor = true;
+			this.btnOptionaleArgumente.Click += new System.EventHandler(this.btnOptionaleArgumente_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(285, 80);
+			this.ClientSize = new System.Drawing.Size(285, 257);
+			this.Controls.Add(this.btnOptionaleArgumente);
+			this.Controls.Add(this.btnMaxAnzeigen);
+			this.Controls.Add(this.btnOut);
+			this.Controls.Add(this.btnFeldVerdoppeln);
 			this.Controls.Add(this.lblAnzeige);
 			this.Controls.Add(this.btnReferenz);
 			this.Controls.Add(this.btnKopie);
@@ -83,6 +131,10 @@ namespace Csharp_2021_4._5._2_ÜbergabePerReferenz
 		private System.Windows.Forms.Button btnKopie;
 		private System.Windows.Forms.Button btnReferenz;
 		private System.Windows.Forms.Label lblAnzeige;
+		private System.Windows.Forms.Button btnFeldVerdoppeln;
+		private System.Windows.Forms.Button btnOut;
+		private System.Windows.Forms.Button btnMaxAnzeigen;
+		private System.Windows.Forms.Button btnOptionaleArgumente;
 	}
 }
 
